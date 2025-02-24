@@ -1,1 +1,3 @@
 # spotidjango
+
+Se adapto la misma entrega anterior a django. En lugar de usar json simplemente usé un modelo para la creacion de usuario pero no implementé ningún tipo de autenticación, solo el registro. El llamado a la API de Spotify se realiza con los mismos parametros y cambiar la forma de agregar las canciones a la base de datos. En este caso tengo dudas respecto al metodo usado en eso. Creo que lo correcto debería haber sido crear un modelo para canciones y que las tablas se relacionacen a traves de keys con la tabla de usuario por la naturaleza de sql, pero no estoy seguro.
